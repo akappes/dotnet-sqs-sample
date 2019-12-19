@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "dotnet_sqs_sample": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UserSecretsId>dotnet-dotnet_sqs_sample-17058962-C048-4C39-8840-13ED026AA494</UserSecretsId>
+        <RootNamespace>dotnet_sqs_sample</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.3.100.1" />
+        <PackageReference Include="AWSSDK.SQS" Version="3.3.102.47" />
+        <PackageReference Include="Elastic.Apm.NetCoreAll" Version="1.2.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.0" />
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    </ItemGroup>
+</Project>
